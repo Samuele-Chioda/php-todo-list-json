@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Andare in palestra",
+        "description": "Allenamento di 1 ora con pesi",
+        "completed": false
+    },
+    {
+        "title": "Fare la spesa",
+        "description": "Comprare frutta, verdura e pane",
+        "completed": true
+    }
+]
