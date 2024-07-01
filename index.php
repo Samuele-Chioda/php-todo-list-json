@@ -17,6 +17,18 @@
 
     <div id="app">
         <h1>Todo List</h1>
+
+        <form @submit.prevent="addTodo">
+            <input type="text" v-model="newTodo.title" placeholder="Titolo" required>
+            <button type="submit">Aggiungi Attività</button>
+        </form>
+
+        <ul>
+            <li v-for="todo in todoList" :key="todo.title">
+                <h3>{{ todo.title }}</h3>
+                <p><strong>Completato:</strong> {{ todo.completed ? 'Sì' : 'No' }}</p>
+            </li>
+        </ul>
     </div>
 
     <script src="./js/script.js"></script>
