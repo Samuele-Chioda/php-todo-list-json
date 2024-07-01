@@ -1,6 +1,5 @@
 <?php
 
-
 ?>
 
 <!DOCTYPE html>
@@ -21,18 +20,11 @@
 <body>
 
     <div id="app">
-        <!-- <h1>Todo List</h1>
-        <ul >
-            <li v-for="todo in todos" :key="todo.id">
-                {{ todo.title }}
-            </li>
-        </ul>
-        <input v-model="newTodo" placeholder="Add a todo">
-        <button @click="addTodo">Add Todo</button> -->
+        <h1>Todo List</h1>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/app.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

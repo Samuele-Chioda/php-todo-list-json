@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Andare in palestra",
+        "description": "Allenamento di 1 ora con pesi",
+        "completed": false
+    },
+    {
+        "title": "Fare la spesa",
+        "description": "Comprare frutta, verdura e pane",
+        "completed": true
+    },
+    {
+        "title": "Studiare PHP",
+        "description": "Completare il capitolo 5 del libro di PHP",
+        "completed": false
+    },
+    {
+        "title": "Portare il cane a spasso",
+        "description": "Passeggiata di 30 minuti nel parco",
+        "completed": true
+    },
+    {
+        "title": "Preparare il pranzo",
+        "description": "Cucinare pollo e verdure",
+        "completed": false
+    }
+]

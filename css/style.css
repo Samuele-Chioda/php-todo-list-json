@@ -8,18 +8,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 #app{
     text-align: center;
 }
-
-/* ul{
-    text-decoration: none;
-}
-
-li{
-    margin: 1rem;
-    border: 2px solid black;
-} */
